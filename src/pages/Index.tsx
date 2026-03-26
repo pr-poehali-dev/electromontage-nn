@@ -165,7 +165,7 @@ export default function Index() {
             </h1>
 
             <p className="text-white/70 text-lg md:text-xl leading-relaxed mb-10 max-w-xl opacity-0 animate-fade-in-delay2">
-              Профессиональная электрика в квартирах, домах и на предприятиях. Гарантия 3 года. Бесплатный выезд и смета.
+              Профессиональная электрика в квартирах, домах и на предприятиях. Гарантия 5 лет. Бесплатный выезд и смета.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-delay3">
@@ -282,7 +282,7 @@ export default function Index() {
               <div className="mt-10 grid grid-cols-2 gap-4">
                 {[
                   { icon: "Award", text: "Лицензия СРО" },
-                  { icon: "Clock", text: "Гарантия 3 года" },
+                  { icon: "Clock", text: "Гарантия 5 лет" },
                   { icon: "Users", text: "15 мастеров в команде" },
                   { icon: "CheckCircle", text: "Договор и смета" },
                 ].map(item => (
